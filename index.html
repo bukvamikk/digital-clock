@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Clock</title>
+  </head>
+  <body onload="setClock(); getDayName();">
+    <div class="clock-holder">
+      <div class="clock">
+        <div class="display">
+          <div id="numbers"></div>
+          <div id="date-holder">
+            <div id="days">
+              <span class="display-day" id="Mo">Mo</span>
+              <span class="display-day" id="Tu">Tu</span>
+              <span class="display-day" id="We">We</span>
+              <span class="display-day" id="Th">Th</span>
+              <span class="display-day" id="Fr">Fr</span>
+              <span class="display-day" id="Sa">Sa</span>
+              <span class="display-day" id="Su">Su</span>
+            </div>
+            <div id="date"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
